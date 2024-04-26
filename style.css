@@ -10,7 +10,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var(--vermelho);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -32,13 +32,13 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: var(--preto);
 }
 
 .botao {
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--vermelho);
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -61,7 +61,7 @@ body {
 
 .ativo {
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--preto);
 }
 
 @media screen and (min-width: 768px) {
